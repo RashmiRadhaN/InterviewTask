@@ -1,0 +1,150 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+
+  }
+
+.bck{
+    background-color: rgba(129, 238, 138, 0.863);
+    width: 46%;
+    height: auto;
+    border-radius: 10px 0px 0px 10px;
+
+}
+
+.items{
+    margin-left: 6vh;
+}
+
+#date{
+    margin-top: -57px;
+}
+
+#date1{
+    margin-top: -15px;
+    border-bottom: 2px solid whitesmoke;
+}
+img{
+    margin-right: 20px;
+    position: relative;
+    top: -42px;
+    right: -504px;
+
+}
+.continer{
+    display: flex;
+    margin-left: 30px;
+
+}
+
+.side{
+    width: 50%;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+
+#start{
+    border-radius: 10px;
+    padding: 8px;
+    width: 16vh;
+    margin-right: 20px;
+    background-color: rgb(91, 91, 216);
+    border: 2px solid black;
+    font-weight: bold;
+}
+
+#stop{
+    border-radius: 10px;
+    padding: 8px;
+    width: 16vh;
+    margin-right: 20px;
+    border: 2px solid black;
+    font-weight: bold;
+
+}
+
+.sideTask{
+    border-bottom: 2px solid rgb(182, 163, 163);
+    margin-bottom: -20px;
+
+}
+
+.sidebtn{
+margin-left: 490px;
+position: relative;
+top: -10px;
+}
+
+.download{
+    font-size: 0.7rem;
+}
+
+#iconuser{
+    border-radius: 50%;
+    margin-left: -18px;
+}
+
+#watcher{
+    margin-left: -35px;
+}
+
+#iconwatch{
+    margin-left: 58px;
+}
+
+#iconpart{
+    margin-left: 78px;
+}
+
+#part{
+    margin-left: -58px;
+}
+
+
+.participants{
+    display: flex;
+    border-bottom: 2px solid whitesmoke
+}
+.downfields{
+    margin-left: 30px;
+    padding: 5px, 10px;
+    border-radius: 10px; 
+} 
+
+.text1,.text2,.text3{
+    margin-right: 35px;
+    padding: 5px;
+    width:150px;
+}
+
+
+ .inputtext{
+    margin-left: 285px;
+    
+ }
+
+ #text{
+width: 500px;
+height: 75px;
+padding :5px;
+margin-top: -80px;
+ }
+
+ .ratings{
+    margin-left: 30px;
+ }
+
+
+ .accept{
+    margin-left: 850px;
+    margin-top: -93px;
+ }
+
+ .controlsBtn{
+    margin-left: 850px;
+    display: flex;
+ }
+
+
+ 

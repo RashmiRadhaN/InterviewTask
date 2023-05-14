@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f95c85aff2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./simple.css">
+    <title>TASK</title>
+
+
+
+</head>
+<body>
+    <center><h1>Generating Minutes of Meeting</h1></center>
+     <div class="continer">
+        <div class="bck">
+            <div class="items">
+
+       <h4>Daily Scrum Metting</h4>
+
+            <img src="logo.png" alt="img" height="40px", width="40px">
+            <p id="date">Date:22/08/2020</p>
+            <p id="date1">Daily setup up for aled term working on PRD 1 project</p><br>
+            <div class="participants">
+            <p>owner</p>
+            <i class="fa-solid fa-user" id="iconuser"></i>
+            <p id="iconwatch">watcher</p>
+            <i class="fa-solid fa-user" id="watcher"></i>
+            <i class="fa-solid fa-user" id="watcher1"></i>
+            <i class="fa-solid fa-user" id="watcher2"></i>
+            <p id="iconpart">participants</p>
+            <i class="fa-solid fa-user" id="part"></i>
+            <i class="fa-solid fa-user" id="part1"></i>
+            <i class="fa-solid fa-user" id="part2"></i>
+        
+        </div><br><br>
+            <p>Meeting Hour</p>
+            <div class="watch">
+                <div class="time">00:00:00</div>
+            </div>
+
+        </div>
+        </div>
+        <div class="side">
+<div>
+                <h3 class="sideTask">Agenda Tasks</h3>
+                <button class="sidebtn">Detailed View</button>
+            </div>
+            <div>
+                <p>UX/UI Decision Making</p>
+                <p>UX/UI Products Edit</p>
+            </div>
+            <div>
+                <h4>Notes</h4>
+                <p>Decision point 1, points-add action here</p>
+                <p>Insight, Points-add action her</p>
+                <p>Discussion,Points-add actions here</p>
+            </div>
+<div>
+                <h3>Resources <span class="download">(Downloaded links)</span></h3>
+                <input type="file" name="files" id="files">
+                <input type="file" name="files" id="files">
+            </div>
+           
+            </div>
+            
+        </div>
+        
+        <div class="downfields">
+             <input type="text" class="text1" placeholder="create Follow up meeting">
+            <input type="text" class="text2" placeholder="Follow Up Meeting">
+            <input type="date" class="text3">
+        </div>
+
+        <div class="ratings">
+
+        <h2>Meeting Feedback</h2>
+    <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+</div>
+<div class="inputtext">
+<textarea name="text" id="text" placeholder="Leave Comment" cols="30" rows="10"></textarea>
+</div>
+
+<div class="accept">
+    <form action="">
+        <input type="checkbox" name="check" id="check">
+        <label for="check">I agree to the meeting minutes</label><br>
+        <i class="fa-regular fa-square-check"></i>
+        <!-- <input type="checkbox" name="check" id="check"> -->
+        <label for="check">I Dont agree to the meeting minutes</label><br><br>
+    </form>
+</div>
+
+<div class="controlsBtn">
+    <button id="start">Start</button>
+    <p id="demo"></p>
+    <button id="stop" onclick="click()">Stop</button>
+</div>
+   <script src="test.js"></script>
+
+</body>
+</html>
